@@ -1,0 +1,33 @@
+.App {
+  min-height: 100vh;
+  background-color: var(--surface-0);
+  color: var(--text-0);
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-section {
+  padding: 0;
+  margin-top: 2rem;
+}
+
+.muted {
+  color: var(--text-3);
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading {
+  font-size: 1rem;
+  color: var(--text-3);
+  font-weight: 500;
+}
